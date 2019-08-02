@@ -22,20 +22,6 @@ import 'react-dates/lib/css/_datepicker.css';
 
 const store = configureStore();
 
-//adicionando despensa
-store.dispatch(addExpense({ descricao: 'conta de agua' ,amount:15001 }))//descrição do que esta sendo adicionado ,varivel descrição esta declarada no arquivo que adiciona
-store.dispatch(addExpense({ descricao: 'conta de luz',createAT:1000 }));
-store.dispatch(addExpense({ descricao: 'aluguel' ,amount:10951 }));
-
-//chamando a função de filtrar o texto 
-/*
-store.dispatch(setTextFilter('conta'));
-//chamada de tempo real ,para poder passar dois argumentos
-setTimeout(()=>{store.dispatch(setTextFilter('luz'));},3000);//muda depois de 3 segundos,ideal para buscas no banco de dados,pq nao precisa atualizar toda a pagina
-*/
-//filtrando o que se deseja apresentar
-const state = store.getState();
-const VisibleExpenses = getVisibleExpenses(state.expenses, state.filters);
 
 console.log(VisibleExpenses);
 const jsx =
