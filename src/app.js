@@ -23,7 +23,7 @@ import 'react-dates/lib/css/_datepicker.css';
 const store = configureStore();
 
 
-console.log(VisibleExpenses);
+//console.log(VisibleExpenses);
 const jsx =
     (
         <Provider store={store}/*com o provider os elementos tem acesso a loja , 'store' é a loja e o {store} é a variavel que a referencia */>
