@@ -17,7 +17,7 @@ import Approuter from './routers/AppRouters';
 //importando estilos
 import 'normalize.css/normalize.css';
 import './styles/styless.scss';
-import 'react-dates/initialize';
+
 import 'react-dates/lib/css/_datepicker.css';
 
 const store = configureStore();
