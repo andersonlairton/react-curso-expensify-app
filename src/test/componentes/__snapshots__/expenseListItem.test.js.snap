@@ -34,8 +34,9 @@ ShallowWrapper {
 </Link>,
         <p>
           -
-          195
+          $195.00
           -
+          31st / December / 1969
 </p>,
       ],
     },
@@ -73,17 +74,17 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             "-",
-            195,
+            "$195.00",
             "-",
-            undefined,
+            "31st / December / 1969",
           ],
         },
         "ref": null,
         "rendered": Array [
           "-",
-          195,
+          "$195.00",
           "-",
-          undefined,
+          "31st / December / 1969",
         ],
         "type": "p",
       },
@@ -107,8 +108,9 @@ ShallowWrapper {
 </Link>,
           <p>
             -
-            195
+            $195.00
             -
+            31st / December / 1969
 </p>,
         ],
       },
@@ -146,17 +148,17 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               "-",
-              195,
+              "$195.00",
               "-",
-              undefined,
+              "31st / December / 1969",
             ],
           },
           "ref": null,
           "rendered": Array [
             "-",
-            195,
+            "$195.00",
             "-",
-            undefined,
+            "31st / December / 1969",
           ],
           "type": "p",
         },
